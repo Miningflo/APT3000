@@ -28,30 +28,19 @@
 <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>-->
 <title>APT-3000</title>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61036065-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-7">
 				<div class="page-header">
-					<h1>APT3000</h1></br>
+					<h1>APT3000</h1><br/>
 					<h3>The JavaScript APT decoder</h3>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="well" style="margin:42">
-					<h4 style="margin-top:-10">Instructions</h4>
+				<div class="well" style="margin:42px">
+					<h4 style="margin-top:-10px">Instructions</h4>
 					<list>
 						<li>Upload a 11025Hz WAV recording of an APT pass (here's a <a href='/NOAA-15-0530.wav'>sample</a>)</li>
 						<li>Recordings with little noise at the beginning work best</li>
@@ -78,8 +67,8 @@
 				</div>
 			</div>
 			<div class="col-md-3" id="buttons" style="visibility:hidden">
-				<input value="View A" class="btn btn-default" type="button" onclick="viewA()">  
-				<input value="View B" class="btn btn-default"type="button" onclick="viewB()">  
+				<input value="View A" class="btn btn-default" type="button" onclick="viewA()">
+				<input value="View B" class="btn btn-default"type="button" onclick="viewB()">
 				<input value="View AB" class="btn btn-default" type="button" onclick="viewAB()">
 			</div>
 			<div class="col-md-3">
@@ -87,10 +76,10 @@
 			</div>
 		</div>
 		<!-- Wave viewer isn't necessary anymore, but could be useful later -->
-		<!-- <canvas id="myChart" width="1000" height="400"></canvas></br></br> --> 
+		<!-- <canvas id="myChart" width="1000" height="400"></canvas></br></br> -->
 		<div class="row">
 			<div class="col-md-4">
-				<canvas id="output" width="1040" height="400"  style="padding-top:5"></canvas>
+				<canvas id="output" width="1040" height="400"  style="padding-top:5px"></canvas>
 			</div>
 		</div>
 		<div class="row text-center">
